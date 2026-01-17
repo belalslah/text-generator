@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Copy, Download, RefreshCw, Settings, FileText, Code, FileJson, FileCode } from 'lucide-react';
+import { Copy, Download, RefreshCw, Settings, FileText, Code, FileJson } from 'lucide-react';
 import { 
   generateArabicLoremIpsum, 
   GenerationOptions, 

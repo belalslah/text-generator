@@ -5,10 +5,9 @@ import { Sliders } from 'lucide-react';
 interface ControlPanelProps {
   options: GenerationOptions;
   onOptionsChange: (newOptions: Partial<GenerationOptions>) => void;
-  onGenerate: () => void;
 }
 
-const ControlPanel: React.FC<ControlPanelProps> = ({ options, onOptionsChange, onGenerate }) => {
+const ControlPanel: React.FC<ControlPanelProps> = ({ options, onOptionsChange }) => {
   const handleKeywordsChange = (value: string) => {
     const keywords = value.split(',').map(k => k.trim()).filter(k => k.length > 0);
     onOptionsChange({ customKeywords: keywords });
