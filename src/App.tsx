@@ -178,6 +178,15 @@ function App() {
         <div className="container mx-auto px-4 text-center text-gray-600 text-sm">
           <p>© 2026 Arabic Lorem Ipsum Generator. Built with React, TypeScript, and Tailwind CSS.</p>
           <p className="mt-2">Professional placeholder text for designers and developers.</p>
+          <p className="mt-3 text-gray-700">
+            Made with <span className="text-red-500">❤️</span> by{' '}
+            <a 
+              href="mailto:belalabukhadija97@gmail.com" 
+              className="text-primary-600 hover:text-primary-700 font-medium transition-colors"
+            >
+              Belal
+            </a>
+          </p>
         </div>
       </footer>
     </div>
