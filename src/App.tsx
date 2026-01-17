@@ -86,7 +86,6 @@ function App() {
             <ControlPanel 
               options={options} 
               onOptionsChange={handleOptionsChange}
-              onGenerate={handleGenerate}
             />
           </div>
 
